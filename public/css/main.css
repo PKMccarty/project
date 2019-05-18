@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
 }
+p{	
+  word-wrap:break-word;
+}
 .logo
 {
   text-align: center;

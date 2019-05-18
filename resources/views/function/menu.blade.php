@@ -3,7 +3,7 @@
   <a href="#" class="active">หน้าหลัก</a>
   <a href="#">สินค้า</a>
   <a href="#">ข่าวสาร</a>
-  <a href="#" class="mtext" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">เข้าสู่ระบบ</a>
+  <a href="#" class="mtext" onclick="document.getElementById('id01').style.display='block'">เข้าสู่ระบบ</a>
   <div id="id01" class="modal">
   <form class="modal-content animate" action="">
     <div class="imgcontainer">

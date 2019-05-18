@@ -103,12 +103,23 @@ span.psw {
 }
 
 /* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width: 300px) {
-  span.psw {
-     display: block;
-     float: none;
+@media screen and (max-width: 800px) {
+  .modal-content {
+    width: 80%; /* Could be more or less, depending on screen size */
   }
-  .cancelbtn {
-     width: 100%;
+}
+@media screen and (max-width: 1000px) {
+  .modal-content {
+    width: 70%; /* Could be more or less, depending on screen size */
+  }
+}
+@media screen and (max-width: 1300px) {
+  .modal-content {
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+}
+@media screen and (max-width: 1150px) {
+  .modal-content {
+    width: 80%; /* Could be more or less, depending on screen size */
   }
 }
