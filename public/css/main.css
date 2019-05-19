@@ -15,6 +15,11 @@ p{
   margin-right: auto;
   
 }
+#login-form
+{
+  display: none;
+  visibility:hidden;
+}
 body {
   font-family: Arial;
   padding: 10px;
@@ -74,6 +79,7 @@ body {
   font-size: 19px !important; 
 }
 .mtext{
+  cursor: pointer;
   float:right !important;
 }
 
