@@ -34,7 +34,6 @@
     </div>
   </form>
 </div>
-
 <script type="text/javascript">
     $(document).ready(function(){
       $('#login').click(function(){
